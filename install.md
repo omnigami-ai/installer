@@ -1,0 +1,1 @@
+Run `npx omnigami login --json`. Show the person the verification address and short code from the first line it prints. Ask them to open that address, sign in, accept the license if asked, check that the code matches and approve. Keep the command running and wait for its second line; never approve for them. Then run `npx omnigami install <skill> --agent <your agent> --json`.

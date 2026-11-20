@@ -1,0 +1,41 @@
+{
+  "name": "omnigami",
+  "version": "0.1.0",
+  "description": "Install omnigami skills for your coding agent: sign in once, then install launch-film, deck and image skills.",
+  "keywords": [
+    "agent-skills",
+    "claude-code",
+    "codex",
+    "skills",
+    "launch-video",
+    "omnigami"
+  ],
+  "homepage": "https://omnigami.ai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omnigami-ai/installer.git"
+  },
+  "bugs": {
+    "url": "https://omnigami.ai/contact"
+  },
+  "license": "MIT",
+  "author": "Auberon LLC",
+  "type": "module",
+  "bin": {
+    "omnigami": "bin/omnigami.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "trusted-keys.json",
+    "README.md",
+    "install.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  }
+}
